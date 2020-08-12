@@ -13,6 +13,11 @@ float averagefunction(){
     printf("\nAverage = %.1f", average);
 }
 float sdfunction(){
+    for (i = 0; i < countnumber; i++)
+        {
+            numpow2[i] = pow((num[i] - average), 2);
+            sumpow2 += numpow2[i];
+        }
     countsd = countnumber - 1;
     averagesd = sumpow2 / countsd;
     sd = sqrt(averagesd);
@@ -36,11 +41,6 @@ int main()
             i++;
         }
         averagefunction();
-        for (i = 0; i < countnumber; i++)
-        {
-            numpow2[i] = pow((num[i] - average), 2);
-            sumpow2 += numpow2[i];
-        }
         sdfunction();
     }
     else if (num1st < num2nd)
@@ -58,11 +58,6 @@ int main()
             i++;
         }
         averagefunction();
-        for (i = 0; i < countnumber; i++)
-        {
-            numpow2[i] = pow((num[i] - average), 2);
-            sumpow2 += numpow2[i];
-        }
         sdfunction();
     }
     else if (num1st == num2nd)
