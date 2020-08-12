@@ -1,0 +1,6 @@
+﻿  Challenge_week1_bootcampPC.cpp
+C:\Users\Chawapon\source\repos\nutt07\gitVScodehomework\mytestgithubPC\mytestgithubPC\Challenge_week1_bootcampPC.cpp(33,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chawapon\source\repos\nutt07\gitVScodehomework\mytestgithubPC\mytestgithubPC\Challenge_week1_bootcampPC.cpp(39,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chawapon\source\repos\nutt07\gitVScodehomework\mytestgithubPC\mytestgithubPC\Challenge_week1_bootcampPC.cpp(62,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chawapon\source\repos\nutt07\gitVScodehomework\mytestgithubPC\mytestgithubPC\Challenge_week1_bootcampPC.cpp(68,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  mytestgithubPC.vcxproj -> C:\Users\Chawapon\Source\Repos\nutt07\gitVScodehomework\mytestgithubPC\Debug\mytestgithubPC.exe
