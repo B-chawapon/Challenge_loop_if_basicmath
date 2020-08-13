@@ -10,7 +10,7 @@
 
 float averagefunction(){
     average = sum / countnumber;
-    printf("\nAverage = %.1f", average);
+    printf("\nAverage = %.2f", average);
 }
 float sdfunction(){
     for (i = 0; i < countnumber; i++)
