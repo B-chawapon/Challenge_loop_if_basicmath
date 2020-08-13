@@ -4,8 +4,8 @@
     float sum = 0;
     float average,averagesd;
     float sumpow2 = 0;
-    float numpow2[100];
-    float num[100];
+    float numpow2[1000];
+    float num[1000];
     int i=0;
 
 float averagefunction(){
